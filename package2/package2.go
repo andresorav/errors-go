@@ -11,4 +11,6 @@ func RunFunction() error {
 	if err != nil {
 		return errors.Wrap(err, "Failed to run function")
 	}
+
+	return nil
 }
